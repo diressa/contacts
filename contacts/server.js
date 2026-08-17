@@ -15,8 +15,8 @@ app.use(fileUpload()); // initializes express with FILEUPLOAD
 // Create a connection to the MySQL database
 const db = mysql.createConnection({
     host: "localhost", // Database host
-    user: "root",      // Database username
-    password: "password", // Database password
+    user: "",      // Database username
+    password: "", // Database password
     database: "contactsdb", // Name of the database
 });
 
